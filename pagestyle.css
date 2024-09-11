@@ -23,15 +23,26 @@ li {
     font-weight: bolder;
 }
 
-.sub{
+#sub{
     color: #21fd21;
 }
 
 p.sub{
-    color:darkviolet;
+    background-color:darkviolet;
 }
 
 #list{
     background-color: bisque;
 }
 
+li:nth-child(even) {
+    background-color: lightyellow;
+}
+a {
+    background-color: powderblue;
+    transition: background-color 0.5s;
+}
+
+a:hover {
+    background-color: gold;
+}
